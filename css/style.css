@@ -20,9 +20,9 @@ tbody tr:hover {
 }
 
 
-/* .scrollable-table {
-    max-height: 300px;
+.scrollable-table {
+    max-height: 600px;
 
     overflow-x: auto;
     overflow-y: auto;
-} */
+}
