@@ -1,0 +1,20 @@
+td {
+    padding: 5px;
+    /* width: 80px; */
+    min-width: 80px;
+    font-size: 9px;
+    text-align: center;
+}
+
+th {
+    padding: 5px;
+    /* width: 100px; */
+    min-width: 80px;
+    font-size: 12px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #e2e2e2;
+    /* background-color: #f5f5f5; */
+}

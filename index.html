@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>full-factory-hourly-sewing-production-report</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- <div class="fixed-top">
+        <h1 class="text-center ">Full Factory Hourly Sewing Production Report </h1>
+    </div> -->
+
+
+    <div class="container-fluid mt-4">
+        <div class="scrollable-table">
+            <table class="table-responsive table-bordered table-hover">
+                <thead class="sticky-top overflow-x-hidden overflow-y-hidden  top-0 bg-success">
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Unit</th>
+                        <th scope="col">Unit & line No</th>
+                        <th scope="col">Buyer</th>
+
+                        <th scope="col">File No.</th>
+                        <th class="text-danger" scope="col">EBS</th>
+                        <th scope="col" colspan="2">Gmts Item </th>
+                        <th class="text-danger" scope="col">Style</th>
+                        <th scope="col">S.M.V</th>
+                        <th scope="col">M/C</th>
+
+                        <th class="text-danger" scope="col">HLP</th>
+                        <th scope="col">TGT/Hr</th>
+                        <th scope="col">TTL TGT</th>
+                        <th scope="col" style="background-color: yellow;">Color</th>
+                        <th scope="col">8-9 AM</th>
+                        <th scope="col">9-10 AM</th>
+                        <th scope="col">10-11 AM</th>
+                        <th scope="col">11--12 PM</th>
+                        <th scope="col">12--01 PM</th>
+                        <th scope="col">02--03 PM</th>
+                        <th scope="col">03--04 PM</th>
+                        <th scope="col">04--05 PM</th>
+                        <th scope="col">05--06 PM</th>
+                        <th scope="col">06--07 PM</th>
+                        <th scope="col">07--08 PM</th>
+                        <th scope="col">08--09 PM</th>
+                        <th scope="col">9--10PM</th>
+                        <th scope="col">10--11PM</th>
+                        <th scope="col">Total production</th>
+
+                        <th scope="col">Wor Hrs</th>
+                        <th scope="col">Input minutes.</th>
+                        <th scope="col"> Output minutes.</th>
+                        <th scope="col">Eff %</th>
+                        <th scope="col">Running Day</th>
+                        <th scope="col">Initial or Repeat</th>
+
+                        <th scope="col">Remarks-Unit-1</th>
+                        <th scope="col">WH</th>
+                        <th scope="col">Standered Hr</th>
+                        <th scope="col">Exta.Hr</th>
+                        <th scope="col">MC Cost</th>
+                        <th scope="col">Exta Hr.MC Cost</th>
+                        <th scope="col">Total Line Cost </th>
+                        <th scope="col"> CM/PCs</th>
+                        <th scope="col"> Total Earning</th>
+                        <th scope="col">Varinace </th>
+                        <th scope="col">Unit-01 </th>
+                        <th scope="col">FOB/Pcs </th>
+                        <th scope="col">Total FOB </th>
+                        <th scope="col"> Required CM </th>
+                        <th scope="col"> Exta Required CM</th>
+                        <th scope="col"> Total Required CM</th>
+
+                    </tr>
+                </thead>
+                <tbody class="">
+
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+                    <tr class="table-hover">
+                        <td>2/8/2024</td>
+                        <td>Unit-1</td>
+                        <td>U01-01</td>
+                        <td>Primark(Sub)</td>
+                        <td>Impress-0056</td>
+                        <td> Impress-0056</td>
+                        <td colspan="2">Mens T-Shirt</td>
+                        <td>Basic</td>
+                        <td>8.48</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>204</td>
+                        <td>2045</td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: red;"></td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>20400</td>
+                        <td>85</td>
+                        <td>0.42%</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>Layout Primark-4440056 (btm)</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>2</td>
+                        <td>$2.56</td>
+                        <td>$2.18</td>
+                        <td>898.68</td>
+                        <td>$0.30</td>
+                        <td>3</td>
+                        <td>$896</td>
+                        <td></td>
+                        <td>$ 0.30</td>
+                        <td>3</td>
+                        <td>$768</td>
+                        <td>$130.68</td>
+                        <td>$899</td>
+                    </tr>
+
+
+
+                    <!-- SUBTOTAL -->
+
+
+                    <tr class="table-hover " style="background-color:#FFFFCC;">
+                        <td class="fw-bold">2/8/2024</td>
+                        <td class="fw-bold">Unit</td>
+                        <td class="fw-bold"></td>
+                        <td class="fw-bold"></td>
+                        <td class="fw-bold"></td>
+                        <!-- Cancel -->
+                        <td class="fw-bold"> </td>
+                        <td class="fw-bold" colspan="2">Sub total</td>
+                        <!-- Cancel -->
+                        <td class="fw-bold"> </td>
+
+                        <td class="fw-bold">8.48</td>
+                        <td class="fw-bold">424</td>
+                        <!-- Cancel -->
+                        <td class="fw-bold">55</td>
+                        <!-- Cancel -->
+                        <td class="fw-bold">3887</td>
+                        <td class="fw-bold">2045</td>
+                        <td class="fw-bold"></td>
+                        <td class="fw-bold">0</td>
+                        <td class="fw-bold">0</td>
+                        <td class="fw-bold">0</td>
+                        <td class="fw-bold">0</td>
+                        <td class="fw-bold">1</td>
+                        <td class="fw-bold">1</td>
+                        <td class="fw-bold">1</td>
+                        <td class="fw-bold">1</td>
+                        <td class="fw-bold">1</td>
+                        <td class="fw-bold">1</td>
+                        <td class="fw-bold">1</td>
+                        <td class="fw-bold">1</td>
+                        <td class="fw-bold">1</td>
+                        <td class="fw-bold">1</td>
+                        <td class="fw-bold">10</td>
+                        <td class="fw-bold">10</td>
+                        <td class="fw-bold">20400</td>
+                        <td class="fw-bold">85</td>
+                        <td class="fw-bold">0.42%</td>
+                        <td class="fw-bold"></td>
+                        <td class="fw-bold"></td>
+                        <td class="fw-bold"></td>
+                        <td class="fw-bold">10</td>
+                        <td class="fw-bold">10</td>
+                        <td class="fw-bold">2</td>
+                        <td class="fw-bold">$ 40.96</td>
+
+
+                        <td class="fw-bold">$ 34.85</td>
+                        <td class="fw-bold">$ 898.68</td>
+                        <td class="fw-bold">$ 4.61</td>
+                        <td class="fw-bold">3</td>
+                        <td class="fw-bold">$ 896</td>
+                        <td class="fw-bold"> </td>
+                        <td class="fw-bold">$ 6.14</td>
+                        <td class="fw-bold">$ 3</td>
+
+                        <td class="fw-bold">$ 12288</td>
+                        <td class="fw-bold">$ 131 </td>
+                        <td class="fw-bold">12419</td>
+
+
+                    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
